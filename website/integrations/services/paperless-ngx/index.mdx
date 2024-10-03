@@ -28,6 +28,11 @@ Create a OAuth2/OpenID Provider (under Applications/Providers) with these settin
 
     Name : Paperless
     Redirect URI: https://paperless.company/accounts/oidc/authentik/login/callback/
+    Scopes (Advanced protocoll settings): 
+        * authentik default OAuth Mapping: OpenID 'email'
+        * authentik default OAuth Mapping: OpenID 'openid'
+        * authentik default OAuth Mapping: OpenID 'profile'
+        * authentik default OAuth Mapping: OpenID authentik API access
 
 ### Step 2 - Application
 
